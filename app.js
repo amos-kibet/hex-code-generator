@@ -1,6 +1,6 @@
 // Include all 256*256*256 hex color codes.
 const colors = [...Array(16777216).keys()].map(i => `#${i.toString(16).padStart(6, '0')}`);
-console.log('hi');
+
 const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
 
